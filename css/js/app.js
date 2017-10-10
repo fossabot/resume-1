@@ -211,18 +211,25 @@
 			'<div class="mdui-container-fluid">\
 				<div class="mdui-row"><div class="banner" v-html="banner"></div></div>\
 				<div class="mdui-text-center mdui-m-t-1 mdui-container mdui-typo">\
-						<div class="mdui-col-xs-5 mdui-col-sm-6 b-b-1"><h5>姓名：{{list.name}}</h5></div>\
-						<div class="mdui-col-xs-7 mdui-col-sm-6 b-b-1"><h5>工作经验：{{list.expr}}</h5></div>\
-						<div class="mdui-col-xs-5 mdui-col-sm-6 b-b-1"><h5>学历：{{list.education}}</h5></div>\
-						<div class="mdui-col-xs-7 mdui-col-sm-6 b-b-1"><h5>求职岗位：{{list.job}}</h5></div>\
-						<div class="mdui-col-xs-5 mdui-col-sm-6 b-b-1"><h5>期望薪资：{{list.salary}}</h5></div>\
-						<div class="mdui-col-xs-7 mdui-col-sm-6 b-b-1"><h5>工作地址：{{list.workAdd}}</h5></div>\
-						<div class="mdui-col-xs-12 mdui-col-sm-6 b-b-1"><h5>电子邮箱：{{list.email}}</h5></div>\
-						<div class="mdui-col-xs-12 mdui-col-sm-6 b-b-1"><h5>手机号码：{{list.tel}}</h5></div>\
-						<div class="mdui-col-xs-12 mdui-col-sm-6 b-b-1"><h5>居住地址：{{list.address}}</h5></div>\
-						<div class="mdui-col-xs-12 mdui-col-sm-6 b-b-1"><h5>座右铭：{{list.motto}}</h5></div>\
-						<div class="mdui-col-xs-12 mdui-col-sm-6 b-b-1"><h5>博客：{{list.blog}}</h5></div>\
-						<div class="mdui-col-xs-12 mdui-col-sm-6 b-b-1"><h5>地址和电话请用base64进行decode转义</h5></div>\
+						<div class="mdui-col-xs-4 b-b-1"><h5>姓名：{{list.name}}</h5></div>\
+						<div class="mdui-col-xs-8 b-b-1"><h5>工作经验：{{list.expr}}</h5></div>\
+						<div class="mdui-col-xs-4 b-b-1"><h5>学历：{{list.education}}</h5></div>\
+						<div class="mdui-col-xs-8 b-b-1"><h5>求职岗位：{{list.job}}</h5></div>\
+						<div class="mdui-col-xs-5 b-b-1"><h5>期望薪资：{{list.salary}}</h5></div>\
+						<div class="mdui-col-xs-7 b-b-1"><h5>工作地址：{{list.workAdd}}</h5></div>\
+						<div class="mdui-col-xs-12 text-justify">\
+							<h5>电子邮箱：{{list.email}}</h5>\
+							<div class="mdui-divider-dark mdui-color-blue mdui-m-b-1"></div>\
+							<h5>手机号码：{{list.tel}}</h5>\
+							<div class="mdui-divider-dark mdui-color-blue mdui-m-b-1"></div>\
+							<h5>居住地址：{{list.address}}</h5>\
+							<div class="mdui-divider-dark mdui-color-blue mdui-m-b-1"></div>\
+							<h5>座右铭：{{list.motto}}</h5>\
+							<div class="mdui-divider-dark mdui-color-blue mdui-m-b-1"></div>\
+							<h5>博客：{{list.blog}}</h5>\
+							<div class="mdui-divider-dark mdui-color-blue mdui-m-b-1"></div>\
+							<h6>地址和电话请用base64进行decode转义</h6>\
+						</div>\
 				</div>\
 			</div>\
 			',    

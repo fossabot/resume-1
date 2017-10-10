@@ -14,26 +14,11 @@
 /*添加自我介绍的下划线*/
 .b-b-1{
   border-bottom:1px solid #2196F3;
-  border-left:1px solid rgba(33, 152, 243, 0.144);
 }
 /*添加文字两端对齐样式*/
-@media (max-width: 767px) {
-  .text-justify{
-    text-align:justify;
-    text-align-last:justify;
-  }
+.text-justify{
+  text-align:justify;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .text-justify{
-    text-align:center;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .text-justify{
-    text-align:center;
-  }
-}
-
 /*添加banner背景控制*/
 .banner {
     text-align: center;
