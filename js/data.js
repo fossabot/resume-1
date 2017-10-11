@@ -57,30 +57,30 @@ function getWorksData(){
     var dataW =[
             {
                 "name":"hexo-theme-melon",
-                "describe":"在现有主题基础上，个人定制一定样式，支持gitment的hexo主题，修改之后的主题比较适合女生",
+                "describe":"在现有主题基础上，个人定制一定样式，支持gitment的hexo主题，修改之后的主题适合girl",
                 "src":"img/web/melon.jpg",
-                "tags":["hexo","sass","gulp","gitment","npm","ejs"],
+                "tags":["hexo","sass","gulp","gitment","npm","ejs","git","webpack"],
                 "url":"https://github.com/mowatermelon/hexo-theme-melon.git"
             },
             {
                 "name":"vueNew",
                 "describe":"基于vue全家桶写的一个新闻类的单页面，主要有新闻，美图，美文和设置等页面",
                 "src":"img/apk/vueNew.jpg",
-                "tags":["vue","vue-router","vue-resource","wind-dom","node","npm","webpack"],
+                "tags":["vue","vue-router","vue-resource","node","npm","webpack","mdui"],
                 "url":"https://github.com/mowatermelon/vueNew.git"
             },            
             {
                 "name":"modal.js",
-                "describe":"在现有框架基础上高度集成一个模态窗插件，支持多个参数的定制",
+                "describe":"在现有框架基础上高度集成一个模态窗插件，支持多个参数的定制，放上使用文档。",
                 "src":"img/plug/showmodal.jpg",
                 "tags":["bootstrap","jQuery","css","gitbook"],
                 "url":"https://github.com/mowatermelon/demoArray/blob/master/showmodal.md"
             },
             {
                 "name":"visualKeyboard",
-                "describe":"自己写的支持中文和英文输入的虚拟键盘，目前主要业务场景是PC查询机",
+                "describe":"自己写的支持中文和英文输入的虚拟键盘，主要业务场景是PC查询机，参考搜狗默认皮肤。",
                 "src":"img/plug/keyboard.jpg",
-                "tags":["css","jquery","SimpleInputMethod"],
+                "tags":["css","jquery","simpleInputMethod","designByMe"],
                 "url":"https://github.com/mowatermelon/visualKeyboard.git"
             },                       
             {
@@ -94,42 +94,42 @@ function getWorksData(){
                 "name":"bingoGame",
                 "describe":"这个是仿造美国bingo游戏写的一个小的demo，通过判断一个随机的匹配结果之和来计算输赢",
                 "src":"img/web/bingoGame.png",
-                "tags":["bingo","js","css"],
+                "tags":["bingo","js","css","designByMe"],
                 "url":"https://github.com/mowatermelon/bingoCard.git"
             },           
             {
                 "name":"Q & A web",
                 "describe":"自己写的一个商务类型的问答网站模版",
                 "src":"img/web/QAweb.png",
-                "tags":["css","响应式"],
+                "tags":["css","响应式","designByMe"],
                 "url":"https://github.com/mowatermelon/mo.git"
             },            
             {
                 "name":".NETSHOP",
                 "describe":"自己写的一个购物商城网站模版",
                 "src":"img/web/Adminlogin.png",
-                "tags":["c#","SqlServer","css"],
+                "tags":["c#","SqlServer","css","designByMe"],
                 "url":"https://github.com/mowatermelon/.netSHOP.git"
             },
             {
                 "name":"leafblog",
                 "describe":"自己写的一个小清新的个人blog模版",
                 "src":"img/web/leafblog.jpg",
-                "tags":["css","jquery","jquery.poptrox"],
+                "tags":["css","jquery","jquery.poptrox","designByMe"],
                 "url":"https://github.com/mowatermelon/blog_leaf.git"
             },  
             {
                 "name":"qqGame",
                 "describe":"学生时期写的一个腾讯游戏活动的页面",
                 "src":"img/web/qqGame.png",
-                "tags":["css","qqGame"],
+                "tags":["css","qqGame","designByMe"],
                 "url":"https://github.com/mowatermelon/qqcargame2.0.git"
             },
             {
                 "name":"design",
                 "describe":"学生时期设计的一些小物料",
                 "src":"img/plug/showmodal.jpg",
-                "tags":["ps","ai","flash"],
+                "tags":["ps","ai","flash","designByMe"],
                 "url":"https://github.com/mowatermelon/picCreations.git"
             },                                     
             {

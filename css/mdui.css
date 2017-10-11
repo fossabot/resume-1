@@ -783,7 +783,7 @@ body,button,input,optgroup,select,textarea {
       width: 8.333333%;
     }
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     .mdui-col-md-1 {
       float: left;
       width: 8.333333%;

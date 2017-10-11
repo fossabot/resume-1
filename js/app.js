@@ -184,11 +184,11 @@
     template:
         '<div class="mdui-container-fluid">\
             <div class="mdui-row"><div class="banner" v-html="banner"></div></div>\
-              <div class="mdui-shadow-15 mdui-col-sm-12 mdui-col-md-4 mdui-m-t-4 mdui-m-b-4"  v-for="(works, idx) in list" :key="idx">\
+              <div class="mdui-shadow-15 mdui-col-sm-12 mdui-col-md-6 mdui-col-lg-4 mdui-m-t-4 mdui-m-b-4"  v-for="(works, idx) in list" :key="idx">\
               <div class="mdui-card">\
                 <div class="mdui-card-primary mdui-p-b-0">\
                   <div class="mdui-card-primary-title">{{works.name}}</div>\
-                  <div class="mdui-card-primary-subtitle mdui-typo"><p>查看地址：<br/>{{works.url}}</p></div>\
+                  <div class="mdui-card-primary-subtitle mdui-typo"><p>仓库地址：<br/>{{works.url}}</p></div>\
                 </div>\
                 <div class="mdui-card-content mdui-p-t-0">\
                   <p>{{works.describe}}</p>\
