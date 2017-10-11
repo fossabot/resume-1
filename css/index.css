@@ -1,37 +1,8 @@
-/*清除面板展开的margin*/
-.work.mdui-panel-item-open {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.work.mdui-panel-item-open .mdui-panel-item-body{
-    color: #2f2f2f;
-    word-break: break-all;
-}
-/*修改默认的面板显示截取情况*/
-.mdui-panel-item-title {
-    width: 50%;
-}
+
 /*添加自我介绍的下划线*/
 .b-b-1{
   border-bottom:1px solid #2196F3;
   border-left:1px solid rgba(33, 152, 243, 0.144);
-}
-/*添加文字两端对齐样式*/
-@media (max-width: 767px) {
-  .text-justify{
-    text-align:justify;
-    text-align-last:justify;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .text-justify{
-    text-align:center;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .text-justify{
-    text-align:center;
-  }
 }
 
 /*添加banner背景控制*/

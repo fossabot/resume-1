@@ -47,44 +47,52 @@ function getExperData(){
                 "duty":"前期主要是使用js和t-sql在公司研发平台进行二次表单开发，涉及到数据库字段设计和多表操作。<br/>后期进入互联网项目，主要是利用c#,html(5),css(3),js，bootstrap,ligerui,等等对项目节目进行规划和设计，需要保证项目在多浏览器和不同设备的兼容性。<br/>目前已经有三个上线项目经验，在项目实战中主要写过三个小轮子，支持中英文输入的虚拟键盘，弹窗插件和流程插件。"
             }            
           ],
-        "evaluate":"兴趣是最好的老师，喜欢前端所思所想即可写成所得，个人自学能力较强，责任感和韧性比较强，毕竟是在项目上线前现场临时改过代码的人。<br/>喜欢折腾，工作之余喜欢按照规划补充自己的技术栈，也比较喜欢学习的状态。<br/>目前用过前端三大框架写过webapp，也写过微信小程序，nodejs也玩过一段时间。<br/>软件上方面版本管理的svn和git使用比较熟练，后台主要是对.net比较熟悉，换了多个编辑器，目前比较喜欢用的是vscode。<br/>对自己的要求是今天事今日毕，工作上喜欢接受挑战，目前有几个自己写的几个小轮子，最近刚改了一个hexo主题包，hexo-theme-melon,自己扩展了一些功能，主要样式也改了一些，欢迎clone提意见。"
+        "evaluate":"兴趣是最好的老师，喜欢前端所思所想即可写成所得，个人自学能力较强，责任感和韧性比较强，毕竟是在项目上线前现场临时改过代码的人。<br/>喜欢折腾和技术分享，工作之余喜欢按照规划补充自己的技术栈，也比较喜欢学习的状态。<br/>目前用过前端三大框架写过webapp，也写过微信小程序，nodejs也玩过一段时间。<br/>软件上方面版本管理的svn和git使用比较熟练，后台主要是对.net比较熟悉，换了多个编辑器，目前比较喜欢用的是vscode。<br/>对自己的要求是今天事今日毕，工作上喜欢接受挑战，目前有几个自己写的几个小轮子，最近刚改了一个hexo主题包，hexo-theme-melon,自己扩展了一些功能，主要样式也改了一些，后期如果有更好样式或者功能的建议，我会继续修改这个主题，欢迎clone提意见。"
         };
     return  dataE;   
 }
+
 //获取作品集数据
 function getWorksData(){
     var dataW =[
             {
                 "name":"hexo-theme-melon",
-                "describe":"在现有主题基础上，个人定制一定样式，支持gitment的hexo主题",
+                "describe":"在现有主题基础上，个人定制一定样式，支持gitment的hexo主题，修改之后的主题比较适合女生",
                 "src":"img/web/melon.jpg",
                 "tags":["hexo","sass","gulp","gitment","npm","ejs"],
                 "url":"https://github.com/mowatermelon/hexo-theme-melon.git"
             },
             {
+                "name":"vueNew",
+                "describe":"基于vue全家桶写的一个新闻类的单页面，主要有新闻，美图，美文和设置等页面",
+                "src":"img/apk/vueNew.jpg",
+                "tags":["vue","vue-router","vue-resource","wind-dom","node","npm","webpack"],
+                "url":"https://github.com/mowatermelon/vueNew.git"
+            },            
+            {
                 "name":"modal.js",
-                "describe":"在现有框架基础上高度集成一个模态窗插件，支持多个参数的定制，使用说明在gitbook也有写",
+                "describe":"在现有框架基础上高度集成一个模态窗插件，支持多个参数的定制",
                 "src":"img/plug/showmodal.jpg",
-                "tags":["bootstrap","jQuery","css"],
+                "tags":["bootstrap","jQuery","css","gitbook"],
                 "url":"https://github.com/mowatermelon/demoArray/blob/master/showmodal.md"
             },
             {
                 "name":"visualKeyboard",
-                "describe":"支持中文和英文输入的虚拟键盘，样式都是自己写的，目前主要业务场景是PC查询机",
+                "describe":"自己写的支持中文和英文输入的虚拟键盘，目前主要业务场景是PC查询机",
                 "src":"img/plug/keyboard.jpg",
                 "tags":["css","jquery","SimpleInputMethod"],
                 "url":"https://github.com/mowatermelon/visualKeyboard.git"
             },                       
             {
                 "name":"flow.js",
-                "describe":"自动化流程插件，基于bootstrap的完全基于配置文档的流程页面跳转插件",
+                "describe":"自动化流程插件，样式基于bootstrap和内容基于配置文档的流程页面跳转插件",
                 "src":"img/plug/flow.jpg",
                 "tags":["bootstrap","js","自动化"],
                 "url":"https://github.com/mowatermelon/flowdemo.git"
             },
             {
                 "name":"bingoGame",
-                "describe":"这个是仿造美国bingo游戏写的一个小的demo",
+                "describe":"这个是仿造美国bingo游戏写的一个小的demo，通过判断一个随机的匹配结果之和来计算输赢",
                 "src":"img/web/bingoGame.png",
                 "tags":["bingo","js","css"],
                 "url":"https://github.com/mowatermelon/bingoCard.git"
@@ -98,9 +106,9 @@ function getWorksData(){
             },            
             {
                 "name":".NETSHOP",
-                "describe":"自己写的购物商城网站，色彩搭配参考一个织梦模板，没有用其他框架都是自己写逻辑。",
+                "describe":"自己写的一个购物商城网站模版",
                 "src":"img/web/Adminlogin.png",
-                "tags":[".NET","SqlServer","css"],
+                "tags":["c#","SqlServer","css"],
                 "url":"https://github.com/mowatermelon/.netSHOP.git"
             },
             {
@@ -128,7 +136,7 @@ function getWorksData(){
                 "name":"更多作品",
                 "describe":"更多作品可以去我的github仓库中查看",
                 "src":"img/web/qqGame.png",
-                "tags":["bootstrap","vue","angular","es6","node","html2canvas","echart","json","io"],
+                "tags":["bootstrap","vue","angular","es6","node","html2canvas","echart","json","io","localstorage","session","mvvm","OOCSS","bem"],
                 "url":"https://github.com/mowatermelon"
             }          
         ];
@@ -149,7 +157,7 @@ function getAboutData(){
             "expr":"一年半",
             "job":"前端工程师",
             "workAdd":"服从安排",
-            "salary":"6k起",
+            "salary":"6k+",
             "blog":"https://mowatermelon.github.io/"
         };
     return  dataA;   
