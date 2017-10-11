@@ -1227,12 +1227,12 @@ body,button,input,optgroup,select,textarea {
   }
 
   .mdui-color-blue {
-    background-color: #2196F3!important;
+    background-color: #00aeff!important;
     color: #fff!important
   }
   
   .mdui-text-color-blue {
-    color: #2196F3!important;
+    color: #00aeff!important;
   }
 
   .mdui-radio {
