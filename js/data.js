@@ -5,13 +5,13 @@ function getStackData(){
         "front":
         {
             "skilled":["html(5)","css(3)","js(es5)","jquery","bootstrap","gulp","MDUI","html2canvas","hexo","json","echart","ligerUI","font icon"],
-            "familiar":["vue","angular","node","ejs","jade","webpack","bower","kindeditor","sass","less","ajax","git","markdown","gitment","github page"],
-            "understand":["react","amazeUI","js(es6)","arcgis","yarn","Element UI","ant design","MUI","layerUI","canvas","knockoutjs","easyUI","Gitbbok","jquery mobile"]
+            "familiar":["vue","angular","node","ejs","electron","jade","webpack","bower","kindeditor","sass","less","ajax","git","markdown","gitment","github page"],
+            "understand":["react","amazeUI","ionic","js(es6)","dojo","arcgis","d3","yarn","Element UI","ant design","MUI","layerUI","canvas","knockoutjs","easyUI","Gitbbok","jquery mobile"]
         }, 
         "backstage":
         {
             "familiar":[".NET","T-SQL"],
-            "understand":["JAVA"]
+            "understand":["JAVA","Python"]
         },  
         "software":
         {
@@ -44,7 +44,7 @@ function getExperData(){
                 "time": "2016/11-至今",
                 "name":"北京中天吉奥信息技术股份有限公司武汉分公司",
                 "position": "研发工程师",
-                "duty":"前期主要是使用js和t-sql在公司研发平台进行二次表单开发，涉及到数据库字段设计和多表操作。<br/>后期进入互联网项目，主要是利用c#,html(5),css(3),js，bootstrap,ligerui,等等对项目节目进行规划和设计，需要保证项目在多浏览器和不同设备的兼容性。<br/>目前已经有三个上线项目经验，在项目实战中主要写过三个小轮子，支持中英文输入的虚拟键盘，弹窗插件和流程插件。"
+                "duty":"前期主要是使用js和t-sql在公司研发平台进行二次表单开发，涉及到数据库字段设计和多表操作。<br/>后期进入互联网项目，主要是利用c#,html(5),css(3),js，bootstrap,ligerui,等等对项目节目进行规划和设计，需要保证项目在多浏览器和不同设备的兼容性。<br/>目前已经有三个上线项目经验，在项目实战中主要写过三个小轮子，支持中英文输入的虚拟键盘，弹窗插件和流程插件。<br/>现在主要独立负责公司webgis项目组"
             }            
           ],
         "evaluate":"兴趣是最好的老师，喜欢前端所思所想即可写成所得，个人自学能力较强，责任感和韧性比较强，毕竟是在项目上线前现场临时改过代码的人。<br/>喜欢折腾和技术分享，转化设计图效率比较高，工作之余喜欢按照规划补充自己的技术栈，也比较喜欢学习的状态。<br/>目前用过前端三大框架写过webapp，也写过微信小程序，nodejs也玩过一段时间。<br/>软件上方面版本管理的svn和git使用比较熟练，后台主要是对.net比较熟悉，换了多个编辑器，目前比较喜欢用的是vscode。<br/>对自己的要求是今天事今日毕，工作上喜欢接受挑战，目前有几个自己写的几个小轮子，最近刚改了一个hexo主题包，hexo-theme-melon,自己扩展了一些功能，主要样式也改了一些，后期如果有更好样式或者功能的建议，我会继续修改这个主题，欢迎clone提意见。"
@@ -154,10 +154,10 @@ function getAboutData(){
             "tel":"MTU2MjM1MjUzODA=",
             "address":"5rmW5YyX5q2m5rGJ",
             "education":"本科",
-            "expr":"一年半",
+            "expr":"两年",
             "job":"前端工程师",
             "workAdd":"服从安排",
-            "salary":"8k+",
+            "salary":"9k+",
             "blog":"https://mowatermelon.github.io/"
         };
     return  dataA;   
