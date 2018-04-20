@@ -4,14 +4,14 @@ function getStackData(){
     var dataS ={
         "front":
         {
-            "skilled":["html(5)","css(3)","js(es5)","jquery","bootstrap","gulp","MDUI","html2canvas","hexo","json","echart","ligerUI","font icon"],
-            "familiar":["vue","angular","node","ejs","electron","jade","webpack","bower","kindeditor","sass","less","ajax","git","markdown","gitment","github page"],
-            "understand":["react","amazeUI","ionic","js(es6)","dojo","arcgis","d3","yarn","Element UI","ant design","MUI","layerUI","canvas","knockoutjs","easyUI","Gitbbok","jquery mobile"]
+            "skilled":["html(5)","css(3)","js(es5)","jquery","bootstrap","gulp","MDUI","html2canvas","hexo","json","echart","ligerUI","font icon","localstroge"],
+            "familiar":["vue","node","ejs","electron","jade","webpack","bower","kindeditor","sass","less","ajax","git","markdown","gitment","github page"],
+            "understand":["vuex","vue-router","angular","mockjs","Element UI","react","amazeUI","ionic","js(es6)","dojo","arcgis","d3","yarn","Element UI","ant design","MUI","layerUI","canvas","knockoutjs","easyUI","Gitbbok","jquery mobile"]
         }, 
         "backstage":
         {
-            "familiar":[".NET","T-SQL"],
-            "understand":["JAVA","Python"]
+            "familiar":[".NET","T-SQL","mysql","access","oracle"],
+            "understand":["JAVA","Python","mongoDB","Redis"]
         },  
         "software":
         {
@@ -44,7 +44,7 @@ function getExperData(){
                 "time": "2016/11-至今",
                 "name":"北京中天吉奥信息技术股份有限公司武汉分公司",
                 "position": "研发工程师",
-                "duty":"前期主要是使用js和t-sql在公司研发平台进行二次表单开发，涉及到数据库字段设计和多表操作。<br/>后期进入互联网项目，主要是利用c#,html(5),css(3),js，bootstrap,ligerui,等等对项目节目进行规划和设计，需要保证项目在多浏览器和不同设备的兼容性。<br/>目前已经有三个上线项目经验，在项目实战中主要写过三个小轮子，支持中英文输入的虚拟键盘，弹窗插件和流程插件。<br/>现在主要独立负责公司webgis项目组"
+                "duty":"前期主要是使用js和t-sql在公司研发平台进行二次表单开发，涉及到数据库字段设计和多表操作。<br/>后期进入互联网项目，主要是利用c#,html(5),css(3),js，bootstrap,ligerui,等等对项目节目进行规划和设计，需要保证项目在多浏览器和不同设备的兼容性。<br/>目前已经有三个上线项目经验，在项目实战中主要写过三个小轮子，支持中英文输入的虚拟键盘，弹窗插件和流程插件。<br/>现在主要独立负责公司webgis项目，主要涉及到的技术是Arcgis for js ，vue，vuex，Element UI和axios等等"
             }            
           ],
         "evaluate":"兴趣是最好的老师，喜欢前端所思所想即可写成所得，个人自学能力较强，责任感和韧性比较强，毕竟是在项目上线前现场临时改过代码的人。<br/>喜欢折腾和技术分享，转化设计图效率比较高，工作之余喜欢按照规划补充自己的技术栈，也比较喜欢学习的状态。<br/>目前用过前端三大框架写过webapp，也写过微信小程序，nodejs也玩过一段时间。<br/>软件上方面版本管理的svn和git使用比较熟练，后台主要是对.net比较熟悉，换了多个编辑器，目前比较喜欢用的是vscode。项目了，除去一些网页模板和技术学习记录，有几个是自己写的几个小小轮子，虚拟键盘支持中英文书写的轮子，支持各种参数设计的自动化流程轮子，一个支持各种细节参数设置的模态窗轮子，还有就是三个vue的开箱即用的模板项目。<br/>在 node 方面，改过一个基于 ejs 的 hexo 博客主题，自己扩展了一些功能，主要样式也改了一些，后期如果有更好样式或者功能的建议，我会继续修改这个主题，欢迎clone提意见。"
@@ -54,7 +54,25 @@ function getExperData(){
 
 //获取作品集数据
 function getWorksData(){
-        var dataW =[
+        var dataW =[ 
+            {
+                "name":"vue-admin",
+                "describe":"基于axios，bootstrap，vue-router，webpack和express等等的基础vue后台控制模板，默认有三个颜色主题可切换。",
+                "tags":["axios","vue","vue-router","webpack","vue-admin","express","mo-theme","vuex","localstorage"],
+                "url":"https://github.com/mowatermelon/vue-admin.git"
+            },   
+            {
+                "name":"vue-ersi",
+                "describe":"基于axios，Element UI，vue-router，esri，webpack和express等等地图后台操作模板。",
+                "tags":["axios","vue","vue-router","webpack","express","vuex","localstorage","esri","dojo","arcgis-js-api-4","arcgis-js-api-3d","ionicons"],
+                "url":"https://github.com/mowatermelon/vue-esri.git"
+            },  
+            {
+                "name":"vue-webapp",
+                "describe":"基于vue做的webapp模版，基于mdui的webapp，在mdui分支",
+                "tags":["axios","vue","vue-router","webpack","express","mdui","vuex","localstorage"],
+                "url":"https://github.com/mowatermelon/vue-webapp.git"
+            },  
             {
                 "name":"visualKeyboard",
                 "describe":"自己写的支持中文和英文输入的虚拟键盘，主要业务场景是PC查询机，中文输入法有搜狗默认皮肤、西瓜皮肤和三个coding洋葱猴皮肤。",
@@ -84,19 +102,7 @@ function getWorksData(){
                 "describe":"集合了一些平时写的小工具函数",
                 "tags":["vue","plugins","layui-demo","motool"],
                 "url":"https://github.com/mowatermelon/moTool.git"
-            },                   
-            {
-                "name":"vue-webapp",
-                "describe":"基于vue做的webapp模版，基于mdui的webapp，在mdui分支",
-                "tags":["axios","vue","vue-router","webpack","express","mdui","vuex","localstorage"],
-                "url":"https://github.com/mowatermelon/vue-webapp.git"
-            },   
-            {
-                "name":"vue-admin",
-                "describe":"基于axios，bootstrap，vue-router，webpack和express等等的基础vue后台控制模板，默认有三个颜色主题可切换。",
-                "tags":["axios","vue","vue-router","webpack","vue-admin","express","mo-theme","vuex","localstorage"],
-                "url":"https://github.com/mowatermelon/vue-admin.git"
-            },             
+            },                                
             {
                 "name":"更多作品",
                 "describe":"更多作品可以去我的github仓库中查看",
