@@ -55,6 +55,12 @@ function getExperData(){
 //获取作品集数据
 function getWorksData(){
         var dataW =[ 
+           {
+                "name":"watermelon-todolist",
+                "describe":"基于electron，localstorage和vue的todolist桌面应用，默认有三个背景色可切换。",
+                "tags":["electron","todolist","vue","localstorage"],
+                "url":"https://github.com/mowatermelon/learn-electron.git"
+            }, 
             {
                 "name":"vue-admin",
                 "describe":"基于axios，bootstrap，vue-router，webpack和express等等的基础vue后台控制模板，默认有三个颜色主题可切换。",
