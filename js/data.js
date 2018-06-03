@@ -118,7 +118,7 @@ function getAboutData(){
     var dataA =
         {
             "avatar": "img/avatar.jpg",
-            "name": "吴红玉",
+            "name": "吴莫",
             "motto":"行至水穷处，坐看云起时。",
             "email":"moanmelon@yeah.net",
             "tel":"MTU2MjM1MjUzODA=",
