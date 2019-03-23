@@ -1,3 +1,11 @@
+/*
+ * @File:  简历项目路由控制相关
+ * @Author: Wu Eva 
+ * @Date: 2019-03-23 23:53:31 
+ * @Last Modified by: melonHero
+ * @Last Modified time: 2019-03-23 23:54:00
+ */
+
 import stackPage from '../pages/stack.js';
 import experiencePage from '../pages/experience.js';
 import interestPage from '../pages/interest.js';
