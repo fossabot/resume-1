@@ -3,7 +3,7 @@
  * @Author: Wu Eva 
  * @Date: 2019-03-23 23:35:13 
  * @Last Modified by: melonHero
- * @Last Modified time: 2019-03-23 23:47:21
+ * @Last Modified time: 2019-03-24 21:03:58
  */
 
 import melonRouter from './router/index.js';
@@ -29,9 +29,9 @@ import melonRouter from './router/index.js';
    * @returns {String} fullHtml 拼接好的页面信息
    */
   const getFullHtml = () => {
-    const routerPathArr = ['about','interest','exper','stack'];
-    const routerIconArr = ['assignment_ind','assessment','assistant','assignment_turned_in'];
-    const rooterNameArr = ['关于我','作品集','经历线','技术栈'];
+    const routerPathArr = ['about','interest','stack','exper'];
+    const routerIconArr = ['assignment_ind','assessment','assignment_turned_in','assistant'];
+    const rooterNameArr = ['关于我','作品集','技术栈','经历线'];
     let template = `
       <router-view></router-view>
       <div class='mdui-bottom-nav mdui-bottom-nav-scroll-hide mdui-color-blue mdui-bottom-nav-text-auto'>
