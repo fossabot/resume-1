@@ -3,7 +3,7 @@
  * @Author: Wu Eva 
  * @Date: 2019-03-23 21:24:18 
  * @Last Modified by: melonHero
- * @Last Modified time: 2019-03-24 23:22:47
+ * @Last Modified time: 2019-03-25 21:21:44
  */
 
 import { aboutData, bannerData } from '../store/data.js';
@@ -27,6 +27,7 @@ const _getTemplateDom = () => {
       <div class="mdui-col-xs-12 ${DEFAULT_TITLE_CLASS}"><h5>手机号码：{{list.tel}}</h5></div>
       <div class="mdui-col-xs-12 ${DEFAULT_TITLE_CLASS}"><h5>居住地址：{{list.address}}</h5></div>
       <div class="mdui-col-xs-12 ${DEFAULT_TITLE_CLASS}"><h5>座右铭：{{list.motto}}</h5></div>
+      <div class="mdui-col-xs-12 ${DEFAULT_TITLE_CLASS}"><h5>到岗时间：{{list.postTime}}</h5></div>
       <div class="mdui-col-xs-12 ${DEFAULT_TITLE_CLASS}"><h5>地址和电话请用base64进行decode转义</h5></div>
     </div>`;
   return getFullDom(template);

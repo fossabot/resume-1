@@ -3,7 +3,7 @@
  * @Author: Wu Eva 
  * @Date: 2019-03-23 23:34:30 
  * @Last Modified by: melonHero
- * @Last Modified time: 2019-03-24 23:21:58
+ * @Last Modified time: 2019-03-25 21:21:58
  */
 
 /** 
@@ -185,8 +185,9 @@ export const aboutData = {
   'expr': '三年',
   'job': '前端工程师',
   'workAdd': '服从安排',
-  'salary': '10k+'
-  // 'blog': 'https://mowatermelon.github.io/'
+  'salary': '面议',
+  'postTime': '一周左右',
+  'blog': 'https://mowatermelon.github.io/'
 };
 
 
