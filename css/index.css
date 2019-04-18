@@ -1,86 +1,101 @@
-
 /*添加自我介绍的下划线*/
-.b-b-1{
-  border-bottom:1px solid #2196F3;
-  border-left:1px solid rgba(33, 152, 243, 0.144);
+.b-b-1 {
+  border-bottom: 1px solid #2196F3;
+  border-left: 1px solid rgba(33, 152, 243, 0.144);
 }
 
 /*添加banner背景控制*/
 .banner {
-    text-align: center;
-    background-image: url("../img/banner.png");
-    background-size: 100% 100%;
-    font-size: 28px;
-    padding-top: 2em;
-    line-height: 1.5;
-    color: #fff;
-    text-shadow: 0px 0px 6px #2196f3;
-    height: 5em;
-    width: 100%;
+  text-align: center;
+  background-image: url("../img/banner.png");
+  background-size: 100% 100%;
+  font-size: 28px;
+  padding-top: 2em;
+  line-height: 1.5;
+  color: #fff;
+  text-shadow: 0px 0px 6px #2196f3;
+  height: 5em;
+  width: 100%;
 }
 
 /*添加对话框效果*/
-.msn-item{
-    padding: 15px;
-    position: relative;
-  }
-  .msn-head{
-    overflow: hidden;
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-    box-shadow: 0 0 3px rgba(0,0,0,0.5);
-  }
-  .msn-head img{
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  .msn-item_other .msn-head{
-    float: left; /* 敌人头像靠左 */
-    margin-right: 15px;
-  }
-  .msn-item_me .msn-head{
-    float: right; /* 我军头像靠右 */
-    margin-left: 15px;
-  }
-  .msn-content{
-    overflow:hidden; /* 触发BFC */
-    word-wrap: break-word;
-    word-break: normal;
-    padding: 10px;
-    border-radius: 5px;
-    letter-spacing: 3px;
-  }
-  
-  /* 用颜色区分敌我 */
-  .msn-item_other .msn-content{
-    background: #fff;
-    color:#2f2f2f;
-    border:1px solid #2f2f2f;       
-    /*box-shadow: 1px 1px 3px rgba(0,0,0,0.5);*/
-  }
-  .msn-item_me .msn-content{
-    background: #5bc0de;
-    color:#fff;
-    line-height: 2;
-    /*box-shadow: -1px 1px 3px rgba(0,0,0,0.5);*/
-  }
-  /* 加气泡尖角，注：因.head和. */
-  .msn-item_other:before,
-  .msn-item_me:after{
-    content:'';
-    position:absolute;
-    top: 35px;
-    /*z-index: 10;*/
-    border: solid transparent;
-    border-width: 8px 10px;
-  }
-  .msn-item_other:before{
-    left:70px;
-    border-right-color: #2f2f2f;
-  }
-  .msn-item_me:after{
-    right: 70px;
-    border-left-color: #5bc0de;
-  }
+.msn-item {
+  padding: 15px;
+  position: relative;
+}
+
+.msn-head {
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.msn-head img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.msn-item_other .msn-head {
+  float: left;
+  /* 敌人头像靠左 */
+  margin-right: 15px;
+}
+
+.msn-item_me .msn-head {
+  float: right;
+  /* 我军头像靠右 */
+  margin-left: 15px;
+}
+
+.msn-content {
+  overflow: hidden;
+  /* 触发BFC */
+  word-wrap: break-word;
+  word-break: normal;
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 3px;
+}
+
+/* 用颜色区分敌我 */
+.msn-item_other .msn-content {
+  background: #fff;
+  color: #2f2f2f;
+  border: 1px solid #2f2f2f;
+  /*box-shadow: 1px 1px 3px rgba(0,0,0,0.5);*/
+}
+
+.msn-item_me .msn-content {
+  background: #5bc0de;
+  color: #fff;
+  line-height: 2;
+  /*box-shadow: -1px 1px 3px rgba(0,0,0,0.5);*/
+}
+
+/* 加气泡尖角，注：因.head和. */
+.msn-item_other:before,
+.msn-item_me:after {
+  content: '';
+  position: absolute;
+  top: 35px;
+  /*z-index: 10;*/
+  border: solid transparent;
+  border-width: 8px 10px;
+}
+
+.msn-item_other:before {
+  left: 70px;
+  border-right-color: #2f2f2f;
+}
+
+.msn-item_me:after {
+  right: 70px;
+  border-left-color: #5bc0de;
+}
+
+[v-cloak] {
+  display: none !important;
+}

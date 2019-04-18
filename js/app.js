@@ -3,7 +3,7 @@
  * @Author: Wu Eva 
  * @Date: 2019-03-23 23:35:13 
  * @Last Modified by: melonHero
- * @Last Modified time: 2019-03-24 21:03:58
+ * @Last Modified time: 2019-04-18 21:51:10
  */
 
 import melonRouter from './router/index.js';
@@ -48,6 +48,7 @@ import melonRouter from './router/index.js';
   const getFullDom = () => {
     const divDom = document.createElement('div');
     divDom.setAttribute('id', 'app');
+    divDom.setAttribute('v-cloak', true);
     divDom.innerHTML = getFullHtml();
     return divDom;
   }
